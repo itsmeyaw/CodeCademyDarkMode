@@ -27,8 +27,8 @@
         color: #FFF !important;
     }
 
-    h1, h2, h3, h4, h5, h6, p, span {
-        color: #FFF !important;
+    h1, h2, h3, h4, h5, h6, p, text, span[class^=text], span[class^=description] {
+        color: #FFF!important;
     }
 
     span:after {
