@@ -207,6 +207,10 @@
     li[class^=item] div[class^=container][style^=border-color], li[class^=item] button {
         background: #212121!important;
     }
+
+    div[class^=editorFooter]{
+        background: #121212;
+    }
 }
 
 @-moz-document url-prefix("https://www.codecademy.com/learn/paths") {
