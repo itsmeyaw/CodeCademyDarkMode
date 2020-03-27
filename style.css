@@ -1,0 +1,6 @@
+@-moz-document url-prefix("https://www.codecademy.com/") {
+    /* This add custom line as separator */
+    .CodeMirror-gutters {
+        border-right: /*[[separatorColor]]*/ /*[[custSeparatorThick]]*/ solid!important;
+    }
+}
