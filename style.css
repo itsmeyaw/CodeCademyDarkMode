@@ -225,7 +225,7 @@
     }
 
     .edit {
-        background: #121212!important;
+        background: #121212 !important;
     }
 
     ul[class^=sideMenu], .account-container, .account-page {
@@ -248,8 +248,16 @@
         background: inherit !important;
     }
 
+    div[class*=dropdown] {
+        background-color: #212121 !important;
+    }
+    
+    div[class*=dropdown] span {
+        color: #000;
+    }
+
     .fcn-checkpoint--disabled {
-        background: #424242!important;
+        background: #424242 !important;
     }
 }
 
