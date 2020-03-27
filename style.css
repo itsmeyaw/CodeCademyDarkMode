@@ -256,8 +256,16 @@
         color: #000;
     }
 
+    div[class^=achievement] {
+        color: #fff!important;
+    }
+
     nav[aria-label="Catalog Subjects"] {
         background: #121212!important;
+    }
+
+    section[data-testid="platform-page"] div[class^=contentContainer], section[data-testid="platform-page"] button,  section[data-testid="platform-page"] button:hover{
+        background-color: unset!important;
     }
 
     .bg-danger{
