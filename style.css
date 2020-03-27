@@ -225,7 +225,7 @@
     }
 
     .edit {
-        background: #121212 !important;
+        background: #121212!important;
     }
 
     ul[class^=sideMenu], .account-container, .account-page {
@@ -249,7 +249,7 @@
     }
 
     .fcn-checkpoint--disabled {
-        background: #424242;
+        background: #424242!important;
     }
 }
 
