@@ -252,8 +252,10 @@
         background-color: #212121 !important;
     }
 
-    div[class*=dropdown] span {
-        color: #000;
+    div[class*=dropdown] input {
+        background-color: #616161 !important;
+        color: #FFF;
+        border: none;
     }
 
     div[class^=achievement] {
