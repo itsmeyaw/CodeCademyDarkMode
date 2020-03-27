@@ -251,9 +251,25 @@
     div[class*=dropdown] {
         background-color: #212121 !important;
     }
-    
+
     div[class*=dropdown] span {
         color: #000;
+    }
+
+    nav[aria-label="Catalog Subjects"] {
+        background: #121212!important;
+    }
+
+    .bg-danger{
+        background: #B71C1C!important;
+    }
+
+    .bg-warning {
+        background: #FBC02D!important;
+    }
+
+    main.forums{
+        background: #121212!important;
     }
 
     .fcn-checkpoint--disabled {
