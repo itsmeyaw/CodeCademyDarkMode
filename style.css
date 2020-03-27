@@ -101,6 +101,10 @@
         background: #121212 !important;
     }
 
+    button[class*=playBtn]{
+        background: unset!important;
+    }
+
     li[class^=tag] {
         color: #fff !important;
     }
