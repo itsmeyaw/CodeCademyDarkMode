@@ -28,7 +28,7 @@
     }
 
     h1, h2, h3, h4, h5, h6, p, text, span[class^=text], span[class^=description] {
-        color: #FFF!important;
+        color: #FFF !important;
     }
 
     span:after {
@@ -102,7 +102,7 @@
     }
 
     button[class*=playBtn], button[class*=playBtn]:hover {
-        background: unset!important;
+        background: unset !important;
     }
     li[class^=tag] {
         color: #fff !important;
@@ -201,14 +201,14 @@
     }
 
     li[class^=item] div[class^=header] {
-        background: inherit!important;
+        background: inherit !important;
     }
 
     li[class^=item] div[class^=container][style^=border-color], li[class^=item] button {
-        background: #212121!important;
+        background: #212121 !important;
     }
 
-    div[class^=editorFooter]{
+    div[class^=editorFooter] {
         background: #121212;
     }
 
@@ -224,7 +224,31 @@
         filter: invert(1);
     }
 
-    .fcn-checkpoint--disabled{
+    .edit {
+        background: #121212 !important;
+    }
+
+    ul[class^=sideMenu], .account-container, .account-page {
+        background: #212121;
+        color: #fff;
+    }
+
+    .account-page input, .account-page li {
+        background-color: #212121 !important;
+        border: none !important;
+        box-shadow: none !important;
+        color: #fff !important;
+    }
+
+    .field--text {
+        border: #fff 2px solid !important;
+    }
+
+    .field--image {
+        background: inherit !important;
+    }
+
+    .fcn-checkpoint--disabled {
         background: #424242;
     }
 }
@@ -235,7 +259,7 @@
     }
 
     span[class^=logo] {
-        color: #121212!important;
+        color: #121212 !important;
     }
 
     div[class^=container] {
