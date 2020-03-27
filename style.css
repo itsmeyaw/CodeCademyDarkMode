@@ -101,10 +101,9 @@
         background: #121212 !important;
     }
 
-    button[class*=playBtn]{
+    button[class*=playBtn], button[class*=playBtn]:hover {
         background: unset!important;
     }
-
     li[class^=tag] {
         color: #fff !important;
     }
@@ -199,6 +198,10 @@
 
     section[class^=exerciseSection] * {
         background: inherit;
+    }
+
+    li[class^=item] div[class^=header] {
+        background: inherit!important;
     }
 }
 
