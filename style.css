@@ -211,6 +211,10 @@
     div[class^=editorFooter]{
         background: #121212;
     }
+
+    .fcn-checkpoint--disabled{
+        background: #424242;
+    }
 }
 
 @-moz-document url-prefix("https://www.codecademy.com/learn/paths") {
