@@ -212,6 +212,18 @@
         background: #121212;
     }
 
+    button[class^=notification] img {
+        filter: invert(1);
+    }
+
+    div[class^=queryContainer] {
+        background: #121212;
+    }
+
+    div[class^=achievementIcon] svg {
+        filter: invert(1);
+    }
+
     .fcn-checkpoint--disabled{
         background: #424242;
     }
