@@ -262,6 +262,10 @@
         color: #fff!important;
     }
 
+    div[class^=wall] {
+        background-color: #616161;
+    }
+
     nav[aria-label="Catalog Subjects"] {
         background: #121212!important;
     }
